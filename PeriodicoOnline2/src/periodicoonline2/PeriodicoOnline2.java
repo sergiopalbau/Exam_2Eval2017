@@ -15,7 +15,12 @@ public class PeriodicoOnline2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+      // una forma de hacer que arranque el formulario desde el main es haciendo una instancia a tu formulario
+        
+        Usuarios us = new Usuarios ();              // instancia a tu formulario, es como si crearas un objeto de esa clase.
+        us.setVisible(true);                        // le decimos que sea visible la ventana poniendola a true
+        
+        
     }
     
 }
